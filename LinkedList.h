@@ -8,10 +8,10 @@
 namespace aisdi
 {
 
-    template <typename Type> // typ TYPE
+    template <typename Type> 
     struct Node
     {
-        const Type data; // wartosc elementu
+        const Type data; // element value
         Node *previous;
         Node *next;
 
