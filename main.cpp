@@ -8,26 +8,7 @@
 #include <iostream>
 namespace
 {
-/*
-UWAGI:
 
-
-
-od razu przy robieniu zmiennej dawac jej wartosc
-
-jesli takie same rzeczy operacje wywolywac metode ktora to robi nawet jesli sprowadza sie to do tego samego warunku
-
-+ w vectorze to nie przechodzenie po kolei tylko przeskok
-
-przy std move PRZEPINAC a nie kopiowac i usuwac
-
-GENERALNIE vector nie powinien dealokowac sobie pamieci na mniej
-
-
-
-Liczba ptk: 7ptk
-
-*/
     template <typename T>
     using Vector = aisdi::Vector<T>;
 
